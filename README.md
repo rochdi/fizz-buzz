@@ -58,4 +58,5 @@ Response
 ## Test it 
 
 `curl -X POST http://localhost:10000/fizzbuzz -d '{ "int1": 2, "int2": 5, "limit": 7, "str1": "fizz", "str2": "buzz"}'`
+
 `curl -X GET http://localhost:10000/stats` 
